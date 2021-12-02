@@ -70,8 +70,6 @@ class Shape(object):
     def points(self, margin=0):
         angle = 2 * pi / self.sides
         rotation = self.rotation - pi / 2
-        if self.sides % 2 == 0:
-            rotation += angle / 2
         angles = [angle * i + rotation for i in range(self.sides)]
         angles.append(angles[0])
         d = 0.5 / sin(angle / 2) - margin / cos(angle / 2)
