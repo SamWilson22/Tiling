@@ -73,7 +73,7 @@ def render(pattern, dual):
     if pattern == 7: # 3.3.4.4
         model = Model()
         model.append(Shape(4))
-        a = model.add(0, [0, 2], 4) + [0]
+        a = model.add(0, [0, 2], 4)
         b = model.add(a, [1, 3], 3)
         c = model.add(b, 1, 3)
         d = model.add(c, 2, 4)
