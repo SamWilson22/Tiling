@@ -31,6 +31,11 @@ Installation on OS X is easy using Homebrew.
 
     brew install py2cairo
 
+Ubuntu/Debian Installation
+
+	sudo apt install libcairo2-dev pkg-config python3-dev
+	pip3 install pycairo
+
 Before creating a new pattern, set these flags to zoom in and label the
 polygons and their edges.
 
